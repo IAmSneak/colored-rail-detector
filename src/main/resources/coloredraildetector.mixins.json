@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.gmail.sneakdevs.coloredraildetector.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DetectorRailBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

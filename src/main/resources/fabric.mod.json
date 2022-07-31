@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "coloredraildetector",
+  "version": "${version}",
+
+  "name": "Colored Rail Detector",
+  "description": "Detector rails on colored blocks only activate when a player is holding that color",
+  "authors": [
+    "Sneak"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/coloredraildetector/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.sneakdevs.coloredraildetector.ColoredRailDetector"
+    ]
+  },
+  "mixins": [
+    "coloredraildetector.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.8",
+    "fabric": "*"
+  },
+  "suggests": {
+  },
+  "custom": {
+  }
+}
